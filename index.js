@@ -13,6 +13,8 @@ app.get("/commands", (req, res) => {
     res.render("commands", {bot: settings.website, commands: settings.commands})
 })
 
-const listener = server.listen(8000, function() {
+const listener = server.listen(4000, function() {
     console.log("Your app is listening on port" + listener.address().port);
 })
+
+module.exports = app
