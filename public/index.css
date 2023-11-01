@@ -1,0 +1,217 @@
+body{
+    background-color: #212529;
+    color: white;
+    height: 100%;
+}
+
+.navbar-brand img {
+    border-radius: 20px;
+}
+
+form.d-flex button{
+    background-color: rgb(121 145 246);
+    color: white;
+    outline: none;
+    border: none;
+}
+
+form.d-flex button:hover{
+    background-color: rgb(166 168 253);
+}
+
+/*Main body */
+
+.head{
+    padding-top: 260px;
+    color: white;
+    line-height: 1.3;
+    text-align: center
+}
+
+.subtext{
+    padding-bottom: 330px;
+    color: rgb(255, 255, 255, .55);
+    line-height: 1.3;
+    text-align: center;
+}
+
+.container{
+    max-width: 1300px;
+}
+.pt-10{
+    padding-top: 10rem!important;
+}
+
+.pt-16{
+    padding-top: 20rem!important;
+}
+
+.custom-1 img{
+    height: 269px;
+    width: 510px;
+    float: right;
+    border-radius: 10px;
+    box-shadow: 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.custom-1 img:hover{
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+
+.custom-1 h3{
+    padding-top: 60px;
+}
+
+.custom-1 p{
+    color: rgb(255, 255, 255, .55);
+    width: 40%;
+}
+
+.custom-2 img {
+    float: left;
+    height: 270px;
+    width: 540px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.custom-2 img:hover{
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+.custom-2 h3{
+    padding-top: 60px;
+    float: right;
+    width: 40%;
+}
+
+.custom-2 p{
+    float: right;
+    width: 40%;
+    color: rgb(255, 255, 255, .55);
+}
+.team {
+    margin-top: 300px; /* Adjust the margin-top value to your desired spacing */
+    position: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.team-content{
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    margin-top: 4rem;
+}
+.team-content img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+.center h1{
+    color: #fff;
+    font-size: 4rem;
+    text-align: center;
+}
+.box {
+    padding: 16px;
+    background: #1b1229;
+    border-radius: 15px;
+    transition: all .38s ease;
+    max-width: 1080px; /* Set the maximum width */
+    max-height: 1350px; /* Set the maximum height */
+    overflow: hidden;
+}
+
+.box img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.box h3{
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.box h5{
+    font-size: 15px;
+    font-weight: 600;
+    color: #b7b4bb;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+.box:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+  /*น่าจอmedia*/
+@media screen and (max-width: 967px) {
+    .container img {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+
+    .pt-10 {
+        padding-top: 10rem!important;
+    }
+
+    .pt-16{
+        padding-top: 20rem!important;
+    }
+
+    .custom-1 p {
+        text-align: center;
+        width: 100%;
+    }
+
+    .custom h3 {
+        text-align: center;
+    }
+
+    .custom-2 p{
+        text-align: center;
+        float: none;
+        width: 100%;
+    }
+
+    .custom-2 h3 {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .custom-2 img {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+    .team{
+        width: 100%;
+        height: auto;
+        padding: 90px 2%;
+    }
+    .center h1{
+        font-size: 3.2rem;
+    }
+}
