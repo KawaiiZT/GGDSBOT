@@ -15,10 +15,6 @@ app.get("/commands", (req, res) => {
     res.render("commands", { bot: settings.website, commands: settings.commands });
 });
 
-app.get('/about', (req, res) => {
-    res.send('Hey, this is my about route...');
-});
-
 // Define a catch-all route for other undefined routes
 app.get('*', (req, res) => {
     res.send('This is my API running 🥳');
