@@ -15,7 +15,7 @@ app.get("/commands", (req, res) => {
 })
 
 app.listen(PORT, () => {
-    console.log('API listening on PORT ${PORT}')
+    console.log(`API listening on PORT ${PORT}`);
 })
 
 module.exports = app
